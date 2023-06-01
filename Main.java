@@ -7,22 +7,22 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter grade %: ");
 
-        int n = scan.nextInt();
-        System.out.println(n);
+        //scans int input from user
+        int num = scan.nextInt();
 
-        if (n >= 75 && n <= 100){
+        if (num >= 75 && num <= 100){
         System.out.println("A");
 
-        } else if(n >= 70 && n <= 75){
+        } else if(num >= 70 && num <= 75){
         System.out.println("B");
         
-        } else if(n >= 60 && n <= 70){
+        } else if(num >= 60 && num <= 70){
         System.out.println("C");
             
-        }else if(n >= 50 && n <= 60){
+        }else if(num >= 50 && num <= 60){
         System.out.println("D");
                 
-        }else if(n >= 0 && n <= 50){
+        }else if(num >= 0 && num <= 50){
         System.out.println("F");
                     
         }
